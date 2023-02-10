@@ -56,6 +56,8 @@ button {
     outline: none;
 }
 .google-body{
+    position: absolute;
+    top: 40px;
     width: 100%;
     height: calc(100vh - 48px);
     display: flex;
@@ -64,6 +66,9 @@ button {
     justify-content: center;
     align-items: center;
     color: #70757a;
+}
+.google-body img{
+    width: 150px;
 }
 form{
     display: flex;
@@ -113,4 +118,9 @@ form input{
 }
 .google-footer .others span{
     margin: 20px;
+}
+@media (min-width: 600px){
+    .google-body img{
+        width: 300px;
+    }
 }
