@@ -2,6 +2,7 @@
 body{
     font-family: Roboto,Helvetica Neue,Arial,sans-serif;
     font-size: 10pt;
+    overflow: hidden;
 }
 nav {
     display: flex;
@@ -98,7 +99,7 @@ form input{
     text-decoration: none;
 }
 .google-footer{
-    position: absolute;
+    position: fixed;
     width: 100%;
     display: flex;
     flex-direction: column;
