@@ -58,7 +58,7 @@ button {
 }
 .google-body{
     position: absolute;
-    top: 40px;
+    top: 20%;
     width: 100%;
     padding: 50px auto;
     height: calc(100vh - 48px);
